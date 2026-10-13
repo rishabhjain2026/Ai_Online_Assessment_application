@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q1",
+    "category": "HTML",
+    "question": "Which HTML element is the most appropriate for the main content unique to a page?",
+    "options": ["<section>", "<main>", "<article>", "<body>"],
+    "correctAnswer": 1,
+    "explanation": "The <main> element represents the dominant content of the document. A page should generally have one visible <main> element."
+  },
+  {
+    "id": "q2",
+    "category": "CSS",
+    "question": "Which CSS layout model is designed for arranging items in one dimension?",
+    "options": ["CSS Grid", "Flexbox", "Float layout", "Positioning"],
+    "correctAnswer": 1,
+    "explanation": "Flexbox is a one-dimensional layout system that arranges content along a row or column. Grid is designed for two-dimensional layouts."
+  },
+  {
+    "id": "q3",
+    "category": "JavaScript",
+    "question": "What does `Array.prototype.map()` return?",
+    "options": ["The original array, modified in place", "A single accumulated value", "A new array of transformed values", "An iterator that runs once"],
+    "correctAnswer": 2,
+    "explanation": "map() creates a new array containing the results of calling the provided function on each element."
+  },
+  {
+    "id": "q4",
+    "category": "Accessibility",
+    "question": "What is the primary purpose of an accessible name on an interactive control?",
+    "options": ["To change its visual appearance", "To identify its purpose to assistive technology", "To make it load faster", "To add keyboard shortcuts automatically"],
+    "correctAnswer": 1,
+    "explanation": "An accessible name communicates a control's purpose to users of assistive technologies, such as screen readers."
+  },
+  {
+    "id": "q5",
+    "category": "React",
+    "question": "Why should a React list item have a stable `key`?",
+    "options": ["To apply CSS styles to the item", "To help React identify items between renders", "To prevent the component from re-rendering", "To make the item accessible by keyboard"],
+    "correctAnswer": 1,
+    "explanation": "Stable keys help React match list items between renders so it can update, add, or remove the correct elements."
+  },
+  {
+    "id": "q6",
+    "category": "CSS",
+    "question": "Which unit is relative to the root element's font size?",
+    "options": ["em", "rem", "vh", "px"],
+    "correctAnswer": 1,
+    "explanation": "rem is relative to the root element's font size. em is relative to the font size of the current element's parent context."
+  },
+  {
+    "id": "q7",
+    "category": "JavaScript",
+    "question": "Which statement about `const` in JavaScript is correct?",
+    "options": ["A const object cannot have its properties changed", "A const binding cannot be reassigned", "const is function-scoped", "const variables are automatically immutable"],
+    "correctAnswer": 1,
+    "explanation": "const prevents reassignment of the binding. Objects and arrays assigned to a const can still have their contents changed."
+  },
+  {
+    "id": "q8",
+    "category": "Web fundamentals",
+    "question": "What does the browser's same-origin policy primarily restrict?",
+    "options": ["A page's ability to load its own stylesheets", "How scripts from one origin interact with resources from another", "The use of HTTPS certificates", "The number of open browser tabs"],
+    "correctAnswer": 1,
+    "explanation": "The same-origin policy limits how a document or script loaded from one origin can interact with resources from another origin."
+  },
+  {
+    "id": "q9",
+    "category": "React",
+    "question": "When is a React effect cleanup function run?",
+    "options": ["Only when the browser tab closes", "Before the effect runs again and when the component unmounts", "Immediately before the first effect", "Only after a failed render"],
+    "correctAnswer": 1,
+    "explanation": "React runs an effect's cleanup before re-running that effect with changed dependencies and when the component unmounts."
+  },
+  {
+    "id": "q10",
+    "category": "Web performance",
+    "question": "Which image attribute can help the browser defer loading an off-screen image?",
+    "options": ["decoding=\"sync\"", "loading=\"lazy\"", "fetchpriority=\"high\"", "async=\"true\""],
+    "correctAnswer": 1,
+    "explanation": "loading=\"lazy\" allows the browser to defer loading an image until it is near the viewport."
+  }
+]
